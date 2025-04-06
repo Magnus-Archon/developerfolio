@@ -4,12 +4,13 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import profilePic from "./assets/images/yourImage.jpg";
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: require("./assets/images/yourImage.jpg"),
+  animation: profilePic ,
   // animation: splashAnimation,
   duration: 2000 // Set animation duration as per your preference
 };
