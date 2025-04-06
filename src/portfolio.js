@@ -10,8 +10,8 @@ import profilePic from "./assets/images/profile.jpg";
 
 const splashScreen = {
   enabled: false, // set false to disable splash screen
-  animation: require("./assets/images/profile.jpg") ,
-  // animation: splashAnimation,
+  // animation: require("./assets/images/profile.jpg") ,
+  animation: splashAnimation,
   duration: 2000 // Set animation duration as per your preference
 };
 
@@ -26,7 +26,7 @@ const greeting = {
   title: "Hi, I'm Olamide",
   subTitle: "A passionate Backend & AI Developer specializing in Python and Artificial Intelligence. Building robust systems and intelligent solutions.",
   resumeLink: ""
-};
+}
 
 // Social Media Links
 
@@ -35,6 +35,7 @@ const socialMediaLinks = {
   linkedin: "https://linkedin.com/in/olamide-latubosun-ba48b12bb",
   gmail: "olamidelatubosun@gmail.com",
   twitter: "https://x.com/OArchon84933?s=08",
+  display: true 
 };
 
 // Skills Section
