@@ -9,7 +9,7 @@ import profilePic from "./assets/images/profile.jpg";
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: require("./assets/images/profile.jpg") ,
   // animation: splashAnimation,
   duration: 2000 // Set animation duration as per your preference
