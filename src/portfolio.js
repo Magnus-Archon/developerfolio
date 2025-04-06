@@ -9,8 +9,8 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  animation: require("./assets/images/yourImage.jpg"), // Replace with your image path
+  duration: 2000 // Set animation duration as per your preference
 };
 
 // Summary And Greeting Section
@@ -23,7 +23,7 @@ const greeting = {
   username: "Latubosun Olamide",
   title: "Hi, I'm Olamide",
   subTitle: "A passionate Backend & AI Developer specializing in Python and Artificial Intelligence. Building robust systems and intelligent solutions.",
-  resumeLink: "Your_Resume_Link"
+  resumeLink: ""
 };
 
 // Social Media Links
@@ -107,9 +107,9 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Federal University of Agriculture, Abeokuta",
-      // logo: require("./assets/images/funaabLogo.png"),
+      logo: require("./assets/images/funaablogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2023 - Present",
+      duration: "December 2023 - Present",
       desc: "Currently pursuing a degree in Computer Science with a focus on Artificial Intelligence",
       descBullets: [
         "Completed projects in Computer Vision and NLP",
@@ -132,11 +132,19 @@ const techStack = {
     },
     {
       Stack: "Artificial Intelligence",
-      progressPercentage: "65%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
       progressPercentage: "65%"
+    },
+    {
+      Stack: "NLP",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Machine Learning",
+      progressPercentage: "70%"
     },
     {
       Stack: "Cloud & DevOps",
@@ -225,7 +233,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Certifications, Award Letters and Cool Projects I've Worked On!",
+  subtitle: "Tech Certifications I have but due to YouTube Learning, I have just a few certifications which are from a programming learning platform",
 
   achievementsCards: [
   //   {
@@ -299,17 +307,17 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "HOBBY AS A TECH PERSON",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO WORK ON MY LIMITED KNOWLEDGE AND TRY TO FEEL LIKE TONY STARK😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Building a Chatbot with Dialogflow and using BeautifulSoup for Web Scraping",
+      subtitle: "",
+      // slides_url: "https://bit.ly/saadpasta-slides",
+      // event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -334,7 +342,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -348,7 +356,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
