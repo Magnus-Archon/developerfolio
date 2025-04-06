@@ -9,7 +9,8 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: require("./assets/images/yourImage.jpg"), // Replace with your image path
+  // animation: require("./assets/images/yourImage.jpg"),
+  animation: splashAnimation,
   duration: 2000 // Set animation duration as per your preference
 };
 
