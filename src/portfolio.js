@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Magnus Archon",
+  username: "Latubosun Olamide",
   title: "Hi, I'm Olamide",
   subTitle: "A passionate Backend & AI Developer specializing in Python and Artificial Intelligence. Building robust systems and intelligent solutions.",
   resumeLink: "Your_Resume_Link"
