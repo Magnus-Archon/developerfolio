@@ -33,7 +33,7 @@ const socialMediaLinks = {
   github: "https://github.com/Magnus-Archon",
   linkedin: "https://linkedin.com/in/olamide-latubosun-ba48b12bb",
   gmail: "olamidelatubosun@gmail.com",
-  twitter: ""
+  twitter: "https://x.com/OArchon84933?s=08",
 };
 
 // Skills Section
@@ -357,7 +357,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "", //Replace "twitter" with your twitter username without @
+  userName: "OArchon84933", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
